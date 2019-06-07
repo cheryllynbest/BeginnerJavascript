@@ -1,0 +1,29 @@
+body {
+	background: rgb(2,0,36);
+	background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(126,58,128,1) 57%, rgba(255,0,76,1) 100%); 
+}
+
+.clPanel{
+	background: white;
+	border: solid;
+	width: 80%;
+	min-height: 100px;
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+	border-radius: 30px;
+	box-shadow: 10px 10px 30px;
+}
+
+.clPanel2 {
+	background: green;
+	border: dotted;
+	width: 80%;
+	min-height: 100px;
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+	border-radius: 30px;
+	box-shadow: 10px 10px 30px;
+}
+

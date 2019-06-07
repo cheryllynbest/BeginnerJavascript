@@ -1,0 +1,121 @@
+/*Working in the Basic Dom Section*/
+
+#myBasicDom {
+	text-align: left;
+	width: 200px;
+  	margin: 0 auto;
+	border: 2px solid black;
+	padding: 5px;
+	margin: 10px;
+}	
+
+h1, h2, h3{
+	text-align: center;
+}
+
+.title {
+	text-align: center;
+}
+
+#div2 {
+	text-align: center;
+	display: inline-block;
+	border: 2px solid black;
+	padding: 5px;
+	margin: 10px;
+}
+
+.button{
+	height:20px; 
+    width:100px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+
+
+/*Working in the Cards Sections*/
+
+#panel {
+	font-family: helvetica;
+	color: grey;
+	border: 1px solid black;
+}
+
+#leftSide {
+	float: left;
+	width: 40% ;
+	height: auto;
+	border-radius: 5px;
+	box-shadow: 15px 10px 5px 0px;
+	padding: 10px;
+	border: 1px solid black;
+	margin-left: 50px;
+	margin-right: auto;
+	margin-top: 20Px;
+	margin-bottom: 10px;
+}
+
+#rightSide {
+	float: right;
+	width: 500px ;
+	height: auto;
+	border-radius: 5px;
+	box-shadow: 15px 10px 5px 0px;
+	padding: 10px;
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: 50px;
+	margin-top: 20Px;
+	margin-bottom: 10px;
+}
+
+.flexButton {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.childButton {
+    -webkit-box-flex: 1 1 auto;
+    -moz-box-flex:  1 1 auto;
+    -webkit-flex:  1 1 auto;
+    -ms-flex:  1 1 auto;
+    flex:  1 1 auto;
+}
+
+#addCardButton {
+  	width: auto;
+    height: auto;
+    background: #0088cc;
+    border: 3px solid black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#addCardsHere {
+	float: auto;
+	background: grey;
+	height: auto;
+	border-radius: 5px;
+	padding: 5px;
+	border: 3px solid black;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20Px;
+	margin-bottom: 10px;
+}
+
+.cardStyle {
+	width: auto;
+    height: auto;
+    background: #0088cc;
+    border: 3px solid black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}

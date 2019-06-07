@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cheryl's Assignment 100</title>
+</head>
+<body>
+
+	<section>
+		<h3> Cheryl's First Great Calculator </h3>
+		First_Number:
+		<input type="text" id="firstNumber"> <br> <br>
+		Operator (choose + - x / ): 
+		<input type="text" id="operator"> <br><br>
+		Second_Number:
+		<input type="text" id="secondNumber"><br><br>
+		<button type="Button" id="enterButton">Press Enter to Calculate</button>
+		<br><br>
+		The answer is equal to:  <p id="theResult"></p>
+		<br>
+
+		<script type="text/javascript" src="Calculator_Comp100.js">
+		</script>
+	</section>
+
+	<section>
+		<style>
+			div.a{text-align: center;}
+		</style>	
+		<div class="a">
+			<h3> Buttons to Cheryl's Calculator </h3>
+			<input id="calcDisplay" value=0 disabled>
+			<br><br>
+			<button type="Button" id="button7" onclick=" " style="margin-right:10px"> 7 </button>
+			<button type="Button" id="button8" onclick=" " style="margin-right:10px"> 8 </button>
+			<button type="Button" id="button9" onclick=" " style="margin-right:10px"> 9 </button>
+			<button type="Button" id="multiplybtn" onclick=" " style="margin-right:10px"> x </button>
+			<br><br>
+			<button type="Button" id="button4" onclick=" " style="margin-right:10px"> 4 </button>
+			<button type="Button" id="button5" onclick=" " style="margin-right:10px"> 5 </button>
+			<button type="Button" id="button6" onclick=" " style="margin-right:10px"> 6 </button>
+			<button type="Button" id="dividebtn" onclick=" " style="margin-right:10px"> / </button>
+			<br><br>
+			<button type="Button" id="button1" onclick=" " style="margin-right:10px"> 1 </button>
+			<button type="Button" id="button2" onclick=" " style="margin-right:10px"> 2 </button>
+			<button type="Button" id="button3" onclick=" " style="margin-right:10px"> 3 </button>
+			<button type="Button" id="addbtn" onclick=" " style="margin-right:10px"> + </button>
+			<br><br>
+			<button type="Button" id="button0" onclick=" " style="margin-right:10px"> 0 </button>
+			<button type="Button" id="decimalbtn" onclick=" " style="margin-right:10px"> . </button>
+			<button id="clearbtn"> CE </button>
+			<button type="Button" id="minusbtn" onclick=" " style="margin-right:10px"> - </button>
+			<br><br>
+			<button type="Button" id="equalbtn" onclick=" " style = "padding:2px 66px;"> = </button>
+			<br><br><br><br>
+		</div>
+
+		<script type="text/javascript" src="ButtonCalculator_Comp100.js">
+		</script>
+
+
+
+	</section>
+
+	<section>
+		<h3> The Great Canadian Tax Calculator </h3>
+
+		<style> table, th {border: 2px solid black;}
+		</style>
+		
+		<table>
+			<tr>
+				<th> Federal Tax Calculation Rates for 2019 </th>
+				<th> Value </th>
+				<th> Line </th>
+			</tr>	
+			<tr>
+				<td> Enter your taxable income from line 260 of you tax return:   </td>
+				<td> <input type="text" id="Line1"> </td>
+				<td>  Line 1   </th>
+			</tr>	
+			<tr>
+				<td> Your base amount is: </td>
+				<td> <p id="Line2"> </p> </td>
+				<td> Line 2 </td>
+			</tr>
+			<tr>
+				<td> Line 1 minus Line 2: (this amount cannot be negative) </td>
+				<td> <p id="Line3"> </p> </td>
+				<td> Line 3 </td>
+			</tr>
+			<tr>
+				<td> Federal Tax Rate: </td>
+				<td> <p id="Line4"> </p> </td>
+				<td> Line 4 </td>
+			</tr>
+			<tr>
+				<td> Multiply the amount on line 3 by the tax rate on line 4: </td>
+				<td> <p id="Line5"> </p> </td>
+				<td> Line 5 </td>
+			</tr>
+			<tr>
+				<td> Tax on the amount from line 2: </td>
+				<td> <p id="Line6"> </p> </td>
+				<td> Line 6 </td>
+			</tr>
+			<tr>
+				<td> Add lines 5 and 6 : </td>
+				<td> <p id="Line7"> </p> </td>
+				<td> Line 7 </td>
+			</tr>	
+	
+	<button id ="pushButton"> Calculate Tax 
+	</button>
+	<br></br>
+
+	<script type="text/javascript" src="TaxCalculation_Comp100.js">
+		</script>
+		</table>
+	</section>
+
+	<section>
+		<br></br>
+
+		<style> table, th {border: 2px solid black;}
+		</style>
+
+		<table cellpadding="5">
+			<tr>
+				<td> <h2>Working with Arrays </h2></td>
+			</tr>
+			<tr>
+				<td> <input type="text" id="textBox"> </td>
+			</tr>
+			<tr>
+				<td> 
+					<button id="addButton"> Add </button> 
+					<button id="showButton"> Show </button> 
+					<button id="totalButton"> Total </button> 
+					<button id="clearButton"> Clear </button>
+				</td>
+			</tr>
+			<div> 
+				<tr>
+					<td> Message Area <p id="messageArea"></p> </td>
+				</tr>
+			</div>
+		</table>
+
+		<script type="text/javascript" src="Arrays_Comp100.js"></script>
+	</section>
+
+	<section> 
+		<br></br>
+
+		<style> table, th {border: 2px solid black;}
+		</style>
+
+		<table cellpadding="5">
+			<tr>
+				<td> <h2>Working with Dictionaries </h2></td>
+			</tr>
+			<tr>
+				<td> <input type="text" id="textBox2" value="Type Province Here"> </td>
+			</tr>
+			<tr>
+				<td> 
+					<button id="lookupButton"> LookUp </button> 
+				</td>
+			</tr>
+			<div> 
+				<tr>
+					<td> Message Area: <p id="messageArea5"></p> </td>
+				</tr>
+			</div>
+		</table>
+
+		<script type="text/javascript" src="Dictionaries_Comp100.js"></script>
+
+	</section>
+
+</body>
+</html>
